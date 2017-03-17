@@ -1,0 +1,13 @@
+{
+  "name": "Funventory",
+  "description": "Boring inventory system",
+  "keywords": [
+    "go",
+    "inventory",
+    "funventory"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/kbeckmann/funventory",
+  "website": "http://github.com/kbeckmann/funventory",
+  "repository": "http://github.com/kbeckmann/funventory"
+}
