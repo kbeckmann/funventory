@@ -71,7 +71,7 @@ func main() {
 	tStr := os.Getenv("REPEAT")
 	repeat, err = strconv.Atoi(tStr)
 	if err != nil {
-		log.Print("Error converting $REPEAT to an int: %q - Using default", err)
+		log.Printf("Error converting $REPEAT to an int: %q - Using default", err)
 		repeat = 5
 	}
 
